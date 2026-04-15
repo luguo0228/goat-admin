@@ -1,0 +1,35 @@
+{
+  "name": "admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "axios": "^1.15.0",
+    "element-plus": "^2.13.7",
+    "js-sha256": "^0.11.1",
+    "jsencrypt": "^3.5.4",
+    "jsrsasign": "^11.1.2",
+    "md5": "^2.3.0",
+    "pinia": "^3.0.4",
+    "qs": "^6.15.1",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/jsrsasign": "^10.5.15",
+    "@types/md5": "^2.3.6",
+    "@types/node": "^24.12.2",
+    "@types/qs": "^6.15.0",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.4",
+    "vue-tsc": "^3.2.6"
+  }
+}

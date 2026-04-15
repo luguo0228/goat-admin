@@ -1,0 +1,30 @@
+/*
+ * Reset styles
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+ * Utility classes
+ */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
